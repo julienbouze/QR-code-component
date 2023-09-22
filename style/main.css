@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  height: 100vh; /* Hauteur de la page entière */
+  height: 95vh; /* Hauteur de la page entière */
 }
 
 .container {
