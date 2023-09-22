@@ -1,0 +1,59 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  background-color : hsl(212, 45%, 89%);
+}
+
+.body {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh; /* Hauteur de la page entière */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Ajoute un peu d'espace autour du contenu (facultatif) */
+}
+
+#title {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  width: 190px;
+  margin-bottom: 10px;
+}
+
+#text {
+  font-size: 12px;
+  color: hsl(220, 15%, 55%);
+  width: 190px;
+  margin-bottom: 10px;
+}
+
+#qr {
+  border-radius: 20px;
+  width: 200px; /* Pour que l'image ne dépasse pas la largeur du conteneur */
+  height: auto; /* Pour maintenir le rapport hauteur/largeur de l'image */
+  margin: 20px;
+}
+
+#attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  padding: 5px 0;
+}
