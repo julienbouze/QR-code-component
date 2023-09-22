@@ -26,6 +26,8 @@ body {
   border-radius: 20px;
   justify-content: center;
   align-items: center;
+  -webkit-box-shadow: 5px 5px 50px -10px rgba(0,0,0,0.25);
+	box-shadow: 5px 5px 50px -10px rgba(0,0,0,0.25);
   padding: 20px; /* Ajoute un peu d'espace autour du contenu (facultatif) */
 }
 
